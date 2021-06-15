@@ -1,3 +1,5 @@
-#Topic: Maximize Core Resilience Under Random Edge and Node Deletions
+### Topic: 
+Maximize Core Resilience Under Random Edge and Node Deletions
 
-#Proposed Algorithm: Dominant Neighbours Algorithm (DNA)
+### Proposed Algorithm: 
+Dominant Neighbour Algorithm (DNA)
