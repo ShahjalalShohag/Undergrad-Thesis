@@ -1,5 +1,5 @@
 ### Topic: 
-A Novel Algorithm to Maximize Core Resilience under Random Edge and Node Deletions
+A Novel Algorithm to Maximize Core Resilience of Networks under Random Edge and Node Deletions
 
 ### Proposed Algorithm: 
 Dominating Neighbours Algorithm (DNA)
