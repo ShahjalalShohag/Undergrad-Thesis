@@ -4,16 +4,14 @@ A Novel Algorithm to Maximize Core Resilience of Networks under Random Edge and 
 ### Proposed Algorithm: 
 Dominating Neighbours Algorithm (DNA)
 
-### Datasets
-| Dataset ID | Network                                 | \|V\| | \|E\| | Source                                           |
-|------------|-----------------------------------------|-------|-------|--------------------------------------------------|
-|          1 | DM-HT(Biological Network)               |  2989 |  4660 | http://networkrepository.com/bio-DM-HT.php       |
-|          2 | fp-pages-food(Social Network)           |   620 |  2091 | http://networkrepository.com/fb-pages-food.php   |
-|          3 | ce-LC(Biological Network)               |  1387 |  1648 | http://networkrepository.com/bio-CE-LC.php       |
-|          4 | openflights (Infrastructure Networks)   |  2939 | 15677 | http://networkrepository.com/inf-openflights.php |
-|          5 | tech-routers-rf (Technological Network) |  2113 |  6632 | http://networkrepository.com/tech-routers-rf.php |
-|          6 | web-edu (Web graphs)                    |  3031 |  6474 | http://networkrepository.com/web-edu.php         |
-|          7 | minnesota(Road Network)                 |  2642 |  3303 | http://networkrepository.com/road-minnesota.php  |
-|          8 | delaunay-n11(DIMACS10)                  |  2048 |  6127 | http://networkrepository.com/delaunay-n11.php    |
-|          9 | infect_dublin(Proximity Network)        |   410 |  2765 | http://networkrepository.com/infect-dublin.php   |
-|         10 | rt-assad(Retweet Network)               |  2139 |  2786 | http://networkrepository.com/rt-assad.php        |
+### Abstract
+Although there are numerous graph properties related to its structure, not all of them provide insight into its strength or vulnerability in terms of network strength. It's valuable to understand which properties have the most impact on a network's strength and also which property we can use to define or set a measurement of strength. 
+
+\vspace{1mm}
+\textit{$K$-core} is a very important network property which gives us a high level of intuition about the network's overall structure. Also, we can set up a measure of node centrality within a network with the terms of \textit{$k$-core}. Again, using  core number and \textit{$k$-core} distribution, we can set up new measurements of the core structure resilience and measure damages caused by dropped communication links. 
+
+\vspace{1mm}
+In this research we came up with a potential node property in a network which can be used to improve its resilience when under attack of communication dropping. More formally when a network goes through certain damages with its connections, it can be represented as edge deletion of a graph. By introducing a new node property, namely \textit{Neighbour Domination Coefficient(NDC)}, we have shown that it can be used as a means of adding some budget edges to the network to keep the core resilience high even after the damage. Using the \textit{NDC} property later on we came up with the \textit{Dominating Neighbour Algorithm(DNA)} which is able to keep the core resilience high. 
+
+\vspace{1mm}
+We performed our algorithm on various real-life networks, and found that it performs well and gives better results when compared to baseline methods like \textit{Greedy} or \textit{Random}. Our algorithm improves the core resilience by $27.233\%$ while the baseline methods $-$ \textit{Random} improves it by $13.9042\%$ and \textit{Greedy} improves it by $14.9138\%$.
