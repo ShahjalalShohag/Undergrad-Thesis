@@ -16,7 +16,7 @@ We performed our algorithm on various real-life networks, and found that it perf
 
 ### Result Comparison
 
-<p align="center"><img src ="/plots/plot1.jpg" /></p>
+<p align="center"><img src ="/plots/plotone.jpg" /></p>
 
 <p align="center"><img src ="/plots/plot6.jpg" /></p>
 
