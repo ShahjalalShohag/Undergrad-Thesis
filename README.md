@@ -14,7 +14,7 @@ In this research we came up with some potential node and edge property in a netw
 
 We performed our algorithm on various real-life networks, and found that it performs well and gives better results when compared to baseline methods like _Greedy_ or _Random_. Against edge deletion our algorithm DNA improves the core resilience by **27.233%** while the baseline methods − _Random_ improves it by **13.9042%** and _Greedy_ improves it by **14.9138%**. And against node deletion our algorithm eDNA improves the core resilience by **24.1707%** while the baseline methods − _Random_ improves it by **7.023%** and _Greedy_ improves it by **15.3194%**.
 
-### Result Comaprison
+### Result Comparison
 
 <p align="center"><img src ="/plots/plot1.pdf" /></p>
 
